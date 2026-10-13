@@ -1,0 +1,8 @@
+{
+  "ConnectionStrings": {
+    "Default": "Server=localhost;Database=CalibrationManagement;Trusted_Connection=True;TrustServerCertificate=True;Encrypt=True"
+  },
+  "Jwt": {
+    "Key": "PASTE-A-RANDOM-SECRET-OF-AT-LEAST-32-CHARACTERS-HERE"
+  }
+}

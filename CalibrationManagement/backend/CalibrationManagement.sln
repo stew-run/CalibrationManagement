@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalibrationManagement.Api", "src\CalibrationManagement.Api\CalibrationManagement.Api.csproj", "{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalibrationManagement.Application", "src\CalibrationManagement.Application\CalibrationManagement.Application.csproj", "{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalibrationManagement.Domain", "src\CalibrationManagement.Domain\CalibrationManagement.Domain.csproj", "{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalibrationManagement.Infrastructure", "src\CalibrationManagement.Infrastructure\CalibrationManagement.Infrastructure.csproj", "{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalibrationManagement.Tests", "tests\CalibrationManagement.Tests\CalibrationManagement.Tests.csproj", "{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1005}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6B1E52-6A0D-4C7B-9C0B-1B7C5C8A1005}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

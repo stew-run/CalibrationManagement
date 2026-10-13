@@ -1,0 +1,27 @@
+# Node.js / React
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# .NET build files
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+appsettings.*.json
+
+# IDE files
+.vs/
+.vscode/
+
+# Logs
+*.log
+
+# Local database files
+*.mdf
+*.ldf
